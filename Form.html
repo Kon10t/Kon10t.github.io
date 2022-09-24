@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+    <title>Книжный магазин</title>
+      <link rel="stylesheet" href="class.css">
+      <link rel="stylesheet" href="kat.css">
+      <link rel="stylesheet" href="form.css">
+	  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:400,300" type="text/css">
+</head>
+<body>
+    <div class="text123">«Book Valley» – это сеть книжных магазинов и интернет-магазин.
+		Мы не просто продаём книги, а разделяем любовь наших покупателей к чтению.</div>
+    <form name="user_anketa" action="/cgi-bin/anketa.cgi" method="posf" ENCTYPE="multiparf/form-data">
+<div id="container">
+	<div id="header">
+		<div class="logo"></div>
+	</div>
+	 <div id="nav">
+	  <ul id="navbar">
+		  <li><a href="First.html">Главная</a></li>
+		  <li><a href="Novelty.html">Новинки</a></li>
+		  <li><a href="Katalog.html">Каталог книг</a></li>
+		  <li><a href="Form.html">Форма заказа</a></li>
+		  <li><a href="Contact.html">Контакты</a>
+            <ul class="submenu">
+                <ul class="submenu">
+                    <hr><li><a href="Contact.html">About</a></li><hr>
+                    <hr><li><a href="map.html">Map</a></li><hr>
+               </ul>
+		  </li>
+	  </ul>  
+	 </div>
+	 <div style="height: 40px"></div>
+        <div id="content_form">
+            <div  class="upd_img_align">
+                <br><br><label>
+                    <p class="ss">Фото</p>
+                    <div class=" margin-top upd_img_forms forms_font"><span>Нажмите на квадрат</span></div>
+                    <input type="file" hidden="true" placeholder="Фото">
+                </label><br>
+                <label>
+                    <p class="ss">Ф.&nbsp;И&nbsp;.О:</p>
+    <div>
+    <div class="margin-name">
+    <input class="Stroka" type="text" size="56" maxlength="35" name="name"  placeholder="Имя">
+    </div>
+     <div class="margin-top">  
+	<input class="Stroka" type="text" size="56" maxlength="35" name="name"  placeholder="Фамилия">
+     </div>
+     <div class="margin-top">  
+        <input class="Stroka" type="text" size="56" maxlength="35" name="name"  placeholder="Отчество">
+         </div><br>
+                </label>
+                <div> <p class="ss">Контакты</p> </div>
+                <div class="margin-name">
+                    <input class="Stroka" type="text" size="25" maxlength="35" name="эмаил"  placeholder="E-mail">
+                   </div><br>
+                   <div> <p class="ss">Страна</p> </div>
+	<div class="margin-name">
+	 <select name="country" tabindex="-1">
+		<option value="ab">Абхазия</option>
+		<option value="au">Австралия</option>
+		<option value="at">Австрия</option>
+		<option value="az">Азербайджан</option>
+		<option value="al">Албания</option>
+		<option value="dz">Алжир</option>
+		<option value="vi">Американские Виргинские острова</option>
+		<option value="ao">Ангола</option>
+		<option value="ad">Андорра</option>
+		<option value="ag">Антигуа и Барбуда</option>
+		<option value="ar">Аргентина</option>
+		<option value="am">Армения</option>
+		<option value="aw">Аруба</option>
+		<option value="af">Афганистан</option>
+		<option value="bs">Багамские острова</option>
+		<option value="bd">Бангладеш</option>
+		<option value="bb">Барбадос</option>
+		<option value="bh">Бахрейн</option>
+		<option value="by">Беларусь</option>
+		<option value="bz">Белиз</option>
+		<option value="be">Бельгия</option>
+		<option value="bj">Бенин</option>
+		<option value="bm">Бермудские Острова</option>
+		<option value="bg">Болгария</option>
+		<option value="bo">Боливия</option>
+		<option value="ba">Босния и Герцеговина</option>
+		<option value="bw">Ботсвана</option>
+		<option value="br">Бразилия</option>
+		<option value="vg">Британские Виргинские острова</option>
+		<option value="bn">Бруней</option>
+     </select>
+     <div class="margin-top">
+        <input class="Stroka" type="text" size="56" maxlength="35" name="name"  placeholder="Город">
+        </div>
+        <div class="margin-top">
+            <input class="Stroka" type="text" size="56" maxlength="35" name="name"  placeholder="Регион">
+        </div><br>
+        <div class="margin-name">
+            <input class="Stroka" type="text" size="56" maxlength="35" name="name"  placeholder="Название книги">
+            <input class="Stroka" type="text" size="7" maxlength="35" name="name"  placeholder="Кол-во">
+        </div><br>
+        <label>
+            <P class="ss">Способ оплаты: </P>
+            <div class="card_container margin-top">
+                <div class="pay">
+                    <div><img src="https://assets.asosservices.com/asos-finance/images/paymentmethods/mir.png"></div>
+                    <div><input type="radio" name="site" value="first" checked></div>
+                </div>
+                <div class="pay">
+                    <div><img src="https://assets.asosservices.com/asos-finance/images/paymentmethods/mastercard.png"></div>
+                    <div><input type="radio" name="site" value="non-first"></div>
+                </div>
+            </div>
+        </label>
+        <div>
+            <input type="checkbox" name="sogl">
+            Я согласен с условиями политики конфиденциальности
+            </div>
+                
+                <div class="margin-top">
+                    <input class="Stroka button" type="submit" value="Отправить">
+                    </div>
+                    <div class="margin-top">
+                    <input class="Stroka button" type="reset" value="Очистить">	
+                  </div>
+    </div>
+                <br>
+        </div>
+	</div>
+
+</div></div>
+<footer>
+    <div id="footer">
+        <div id="twitter">
+            <h3>Выполнил:</h3>
+            <time datetime="2022-05-29"><a href="#" >29 oct</a></time>
+        <p class="p_footer">
+            <p class="name">Нелюбин Матвей Александрович ИСП-6</p>
+        </p>
+        </div>
+        <div id="sitemap">
+            <h3>SITEMAP</h3>
+            <div>
+                <a href="First.html">Home</a>
+                <a href="Novelty.html">Novelty</a>
+                <a href="Katalog.html">Katalog</a>
+            </div>
+            <div>
+                <a href="Form.html">Form</a>
+                <a href="Contact.html">Contact</a>
+            </div>
+        </div>
+        <!--
+        <div id="social">
+            <h3>SOCIAL NETWORKS</h3>
+            <a href="http://twitter.com/" class="social-icon twitter"></a>
+            <a href="http://facebook.com/" class="social-icon facebook"></a>
+            <a href="http://plus.google.com/" class="social-icon google-plus"></a>
+            <a href="http://vimeo.com/" class="social-icon-small vimeo"></a>
+            <a href="http://youtube.com/" class="social-icon-small youtube"></a>
+            <a href="http://flickr.com/" class="social-icon-small flickr"></a>
+            <a href="http://instagram.com/" class="social-icon-small instagram"></a>
+            <a href="/rss/" class="social-icon-small rss"></a>
+        </div>
+    -->
+        <div id="footer-logo">
+            <a href="First.html" class="p_footer"><p>Book Valey</p></a>
+            <p>Copyright © 2022 Neliubin M.A. A <a href="Contact.html">BookValley</a> creation</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
