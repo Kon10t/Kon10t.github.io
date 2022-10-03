@@ -1,0 +1,39 @@
+.text {
+    color: #d1dddd;
+	font-family: Oswald;
+	font-size: 18px;
+    margin-left: 25px;
+    margin-top: 15px;
+    padding-left: 35px;
+}
+h2 {
+    color: gray;
+    font-size: 18px;
+    font-weight: 900px;
+}
+a:link {
+	text-decoration: none;
+  }
+  a:visited {
+	color: orange;
+  }
+  a:hover {
+	color: gray; 
+  }
+  a:active {
+	color: gray; 
+  }
+  .contact_align {
+      margin-left: 180px;
+      margin-right: 180px;
+  }
+  textarea {
+    width:80%;
+    resize: vertical;
+    margin-left: 35px;
+    padding:15px;
+    border-radius:15px;
+   
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25);
+    height:45px;
+  }

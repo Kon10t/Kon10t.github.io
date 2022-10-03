@@ -1,0 +1,19 @@
+#contentMap {
+    background-color: rgba(28,28,28,1);
+    box-shadow: 20px 20px 20px;
+    height: 600px;
+    width: 100%;
+    border-radius: 20px 20px 20px 20px;
+}
+iframe{margin-left: 150px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+padding: 20px;
+text-align: center;}
+.dopalign {
+    margin-left: 390px;
+    margin-top: 20px;
+    font-size: 22px;
+}
