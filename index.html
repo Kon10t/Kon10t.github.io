@@ -20,7 +20,7 @@
 	  xhttp.onload = function() {
 		document.getElementById("demo").innerHTML = this.responseText;
 	  }
-	  xhttp.open("POST", "demo.asp");
+	  xhttp.open("POST", "demo/demo.asp");
 	  xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 	  xhttp.send("fname=Henry&lname=Ford");
 	}
