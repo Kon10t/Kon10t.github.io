@@ -9,27 +9,22 @@
 </head>
 <body>
 
-	<form
-  name="contact"
-  method="POST"
-  data-netlify-recaptcha="true"
-  data-netlify="true"
->
-  <p>
-    <label>
-      Email: <input type="text" name="name" />
-    </label>
-  </p>
-  <p>
-    <label>
-      Message: <textarea name="message"></textarea>
-    </label>
-  </p>
-  <div data-netlify-recaptcha="true"></div>
-  <p>
-    <button type="submit">Send</button>
-  </p>
-</form>
+	<h2>The XMLHttpRequest Object</h2>
+	<button type="button" onclick="loadDoc()">Request data</button>
+	
+	<p id="demo"></p>
+	 
+	<script>
+	function loadDoc() {
+	  const xhttp = new XMLHttpRequest();
+	  xhttp.onload = function() {
+		document.getElementById("demo").innerHTML = this.responseText;
+	  }
+	  xhttp.open("POST", "demo.asp");
+	  xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+	  xhttp.send("fname=Henry&lname=Ford");
+	}
+	</script>
 
 	<div class="text123">«Book Valley» – это сеть книжных магазинов и интернет-магазин.
 		Мы не просто продаём книги, а разделяем любовь наших покупателей к чтению.</div>
